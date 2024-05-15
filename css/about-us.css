@@ -1,0 +1,415 @@
+.main-header {
+    margin-top: 25px;
+}
+
+.top-title{
+    max-width: 838px;
+}
+
+h3{
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.star-header{
+    width: 5vw;
+    top: 90px;
+    right: 50px;
+}
+
+.star-middle{
+    width: 5vw;
+    top: 50%;
+    right: 50px;
+}
+
+.founder-star{
+    bottom: 30px;
+    right: 30px;
+    width: 10vw;
+}
+
+.welcome-message {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 3px;
+    padding: 4px 8px
+}
+
+.main-title {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    text-align: center;
+    max-width: 990px;
+    font-size: 35px;
+    line-height: 38px;
+    z-index: 99;
+    padding-bottom: 4px;
+}
+
+.main-title-fade {
+    background: -webkit-linear-gradient(70deg, var(--bs-primary), #ededed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-info {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.025em;
+    text-align: center;
+    max-width: 424px;
+}
+
+.header-description {
+    text-align: center;
+    max-width: 750px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+    z-index: 99;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.why-choose {
+    width: 100%;
+    text-align: center;
+}
+
+.star-1 {
+    width: 80px;
+    position: absolute;
+    top: 0px;
+    right: 7vw;
+    transform: translateY(-50%);
+}
+
+.star-2 {
+    position: absolute;
+    bottom: 0px;
+    width: 60px;
+    left: 7vw;
+    transform: translateY(100%);
+}
+
+
+
+.h2-el {
+    z-index: 99;
+    max-width: 921px;
+}
+
+.why-spike{
+    white-space: nowrap;
+}
+
+.become-partner-main {
+    width: calc(100% - 50px);
+    max-width: 1232px;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 22px;
+    border: 1px solid #b6d6e8;
+    background-color: white;
+    z-index: 10;
+}
+
+.separator {
+    width: calc(100% -60px);
+    margin: 15px 30px;
+    height: 1px;
+}
+
+.cards-div {
+    max-width: 1232px;
+    width: calc(100% - 50px);
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.lamp {
+    display: none;
+}
+
+.card img {
+    width: 190px;
+}
+
+.become-partner-section {
+    margin-top: 40px;
+    padding-top: 6vw;
+    margin-bottom: 90px;
+}
+
+.why-choose-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.why-choose-description {
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.next-step {
+    z-index: 999;
+    max-width: 100%;
+}
+
+.next-step h1{
+    white-space: wrap;
+}
+
+.electricity-tower {
+    max-width: 651px;
+    height: 100%;
+    opacity: 0.3;
+}
+
+.services-cards {
+    max-width: 1100px;
+    width: calc(100% - 50px);
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.services-logo {
+    background-color: #f6e5fa;
+    width: 50px;
+    height: 50px;
+}
+
+.contact-info {
+    max-width: auto;
+}
+
+.wire {
+    width: 18vw;
+    display: none;
+}
+
+.solar-panel {
+    width: 23vw;
+    display: none;
+}
+
+.card {
+    padding: 40px !important;
+    border: none !important;
+}
+
+/* h3 {
+    font-size: 28px !important;
+    line-height: 32px !important;
+} */
+
+.mb-115{
+    margin-bottom: 130px;
+}
+
+.shared-principles{
+    max-width: 1232px;
+    width: calc(100% - 50px);
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.owl-btns{
+    width: 72px !important;
+    height: 72px !important;
+    transform: scale(0.7);
+}
+
+.owl-carousel .item{
+    height: 330px !important;
+}
+
+.owl-carousel .card{
+    transform: translateX(0%);
+}
+
+.why-spike-financial{
+    font-size: 25px;
+    line-height: 35px;
+}
+
+h2{
+    font-size: 23px !important;
+    line-height: 28px  !important;
+}
+
+.founder-container{
+    width: calc(100% - 50px);
+        max-width: 1232px;
+        padding: 20px;
+        border-radius: 22px;
+        border: 1px solid #b6d6e8;
+        background-color: white;
+        z-index: 10;
+        
+}
+
+.size-adjust{
+    font-size: 30px !important;
+    line-height: 35px !important;
+}
+
+
+
+@media (min-width: 576px) {
+    .why-spike-financial{
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .header-description {
+        font-size: 18px;
+    }
+
+    h2{
+        font-size: 32px !important;
+        line-height: 38px !important;
+    }
+
+
+    .become-partner-main {
+        padding: 40px;
+    }
+
+    .main-title {
+        font-size: 50px;
+        line-height: 52px;
+    }
+
+    .size-adjust{
+        font-size: 40px !important;
+        line-height: 45px !important;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .founder-container {
+        max-width: 600px;
+    }
+
+    .owl-btns{
+        transform: scale(1);
+    }
+
+    .owl-carousel .card{
+        transform: translateX(-50%);
+    }
+
+    .star-1 {
+        width: 106px;
+    }
+
+    .become-partner-main {
+        padding: 80px;
+    }
+
+    .become-partner-main.first{
+        padding: 50px;
+    }
+
+    .lamp {
+        display: block;
+    }
+
+    .header-info {
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    .main-header {
+        margin-top: 90px;
+    }
+
+    .main-title {
+        font-size: 65px;
+        line-height: 67px;
+    }
+
+    .size-adjust{
+        font-size: 50px;
+        line-height: 55px;
+    }
+}
+
+
+@media (min-width: 992px) {
+
+    .founder-container {
+        max-width: 1232px;
+    }
+
+    .next-step h1{
+        white-space: noWrap;
+    }
+
+    .electricity-tower {
+        opacity: 1;
+    }
+
+    .separator {
+        width: 1px;
+        height: 100%;
+        margin: 0;
+    }
+
+    .wire {
+        bottom: 0;
+        transform: translateY(50px);
+        display: block;
+    }
+
+    .solar-panel {
+        /* width: 190px; */
+        bottom: 0;
+        transform: translateY(50px);
+        display: block;
+    }
+
+    .size-adjust{
+        font-size: 60px !important;
+        line-height: 65px !important;
+    }
+
+    .next-step {
+        max-width: 530px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .main-title {
+        font-size: 75px;
+        line-height: 78px;
+    }
+
+    /* .wire{
+        width: 260px;
+    } */
+
+    /* .solar-panel{
+        width: 230px;
+    } */
+
+    h2{
+        font-size: 40px !important;
+        line-height: 52px !important;   
+    }
+
+    .why-spike-financial{
+        font-size: 40px;
+        line-height: 52px;
+    }
+}

@@ -1,0 +1,287 @@
+.main-header {
+    margin-top: 25px;
+}
+
+.stars-header {
+    top: 90px;
+}
+
+.welcome-message {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 3px;
+    padding: 4px 8px
+}
+
+.main-title {
+    max-width: 679px;
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    text-align: center;
+    z-index: 99;
+}
+
+.main-title-span {
+    background: -webkit-linear-gradient(70deg, var(--bs-primary), #ededed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-info {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.025em;
+    text-align: center;
+    max-width: 424px;
+}
+
+.header-description {
+    text-align: center;
+    max-width: 750px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    z-index: 99;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.why-choose {
+    width: 100%;
+    text-align: center;
+}
+
+.star-1 {
+    width: 80px;
+    position: absolute;
+    top: 0px;
+    right: 7vw;
+    transform: translateY(-50%);
+}
+
+.star-2 {
+    position: absolute;
+    bottom: 0px;
+    width: 60px;
+    left: 7vw;
+    transform: translateY(100%);
+}
+
+.h2-el {
+    z-index: 99;
+}
+
+.become-partner-main {
+    width: calc(100% - 50px);
+    max-width: 1232px;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 22px;
+    border: 1px solid #b6d6e8;
+    background-color: white;
+    z-index: 10;
+}
+
+.separator {
+    width: calc(100% -60px);
+    margin: 15px 30px;
+    height: 1px;
+}
+
+.cards-div {
+    max-width: 1232px;
+    width: calc(100% - 50px);
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.lamp {
+    display: none;
+}
+
+.card-badge {
+    color: #41114D;
+    background-color: #EFB0FF45;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    text-align: left;
+    border-radius: 99999px;
+    display: inline !important;
+    width: max-content;
+    font-size: 15px;
+    line-height: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.become-partner-section {
+    padding-top: 8vw;
+    margin-bottom: 100px;
+}
+
+.why-choose-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.why-choose-description {
+    width: 100%;
+    max-width: 660px;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.choose-section-star {
+    transform: translateY(-56px);
+}
+
+.next-step {
+    z-index: 999;
+    max-width: 530px;
+
+}
+
+.electricity-tower {
+    max-width: 651px;
+    height: 100%;
+    opacity: 0.3;
+}
+
+.payment-terminal {
+    width: 308px;
+    display: none;
+}
+
+.logo-responsive {
+    width: 150px;
+}
+
+.wrap-header{
+    white-space: wrap;
+}
+
+@media (min-width: 400px){
+    .wrap-header{
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .become-partner-main {
+        padding: 40px;
+    }
+
+    .logo-responsive {
+        width: 190px;
+    }
+
+    .main-title {
+        font-size: 50px;
+        line-height: 52px;
+    }
+
+    .card-badge {
+        font-size: 24px;
+        line-height: 46px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .wrap-header{
+        white-space: wrap;
+    }
+
+    .star-1 {
+        width: 106px;
+    }
+
+    .become-partner-section {
+        margin-bottom: 115px;
+    }
+
+    .main-title {
+        font-size: 65px;
+        line-height: 67px;
+    }
+
+    .card-badge {
+        font-size: 18px;
+        line-height: 39px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .lamp {
+        display: block;
+    }
+
+    .header-info {
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    .main-header {
+        margin-top: 50px;
+    }
+}
+
+
+@media (min-width: 992px) {
+
+    
+
+    .why-choose-section {
+        margin-top: 145px;
+        margin-bottom: 145px;
+    }
+
+    .electricity-tower {
+        opacity: 1;
+    }
+
+    .become-partner-main {
+        padding: 70px;
+    }
+
+    .main-title {
+        font-size: 75px;
+        line-height: 77px;
+    }
+
+    .separator {
+        width: 1px;
+        height: 100%;
+        margin: 0;
+    }
+
+    .card-badge {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .payment-terminal {
+        bottom: 120px;
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-badge {
+        font-size: 24px;
+        line-height: 46px;
+    }
+
+    .payment-terminal {
+        bottom: 0px;
+    }
+}

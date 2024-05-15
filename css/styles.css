@@ -1,0 +1,296 @@
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #ededed;
+}
+
+h2{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+
+.nav-link:hover{
+    color: var(--bs-secondary);
+}
+
+h3{
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+
+.w-fit{
+    width: fit-content !important;
+}
+
+.btn{
+    padding-top: 11px !important;
+    padding-bottom: 11px !important;
+}
+
+h4{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: -0.025em;
+    text-align: left;
+}
+
+input[type="text"]{
+    background-color: #f2f2f7;
+    border: 1px solid transparent;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    padding: 13px 25px;
+    border-radius: 9999px;
+}
+
+input[type="text"]:focus{
+    border: 1px solid var(--bs-primary);
+}
+
+li{
+    list-style-type: none !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 29px !important;
+    text-align: left !important;
+}
+
+footer{
+    margin-top: 100px;
+}
+
+.footer-menu{
+    width: 100%;
+    max-width: 1000px;
+}
+
+.footer-menu-wrapper{
+    border-bottom: 1px solid #d5d3d6;
+}
+
+.footer-menu-item{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-menu-item a{
+    text-decoration: none;
+    color: var(--bs-secondary);
+    transition: all 0.2s ease-in-out;
+}
+
+.footer-menu-item a:hover{
+    text-decoration: underline;
+}
+
+.copyrights{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.5px;
+    text-align: center;
+}
+
+.hoverable-link:hover{
+    color: #0079ba !important;
+}
+
+.py-5{
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+}
+
+.navbar ul{
+    width: 100%;
+    max-width: 1000px;
+}
+
+.navbar-nav .nav-link{
+    padding: 10px 34px !important;
+    font-size: 18px;
+    color: #2C2753;
+}
+
+.card{
+    padding: 30px;
+    border-radius: 30px;
+    opacity: 0px;
+    border: 1px solid #0079BA3D;
+}
+
+.contact-section{
+    margin-top: 80px;
+    max-width: 1232px;
+    width: calc(100% - 50px);
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.contact-info{
+    max-width: auto;
+}
+
+.contact-info .card{
+    width: 100% !important;
+}
+
+.contact-form{
+    max-width: 679px;
+}
+
+.contact-details{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+
+.contact-details a{
+    font-weight: 400;
+    color: black;
+}
+
+.contact-icon{
+    width: 18px !important;
+    height: 18px;
+}
+
+.description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.recaptcha-container{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.recaptcha-item{
+    z-index: 20 !important;
+    filter: none !important;
+}
+
+.animate-spin{
+    width: 30px; 
+    height: 30px; 
+    fill: #0079ba;
+    animation: spin 1s linear infinite;
+}
+
+.custom-col-6 {
+    width: 100%;
+}
+
+.custom-col-1 {
+    width: 100%;
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+
+@media (min-width: 576px){
+
+    .footer-menu-item{
+        width: 40%;
+    }
+
+    .card{
+        padding: 33px;
+    }
+
+    h2{
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    h3{
+        font-size: 32px;
+        line-height: 41.6px;
+    }
+}
+
+@media (min-width: 768px){
+
+    .footer-menu-item{
+        width: 33%;
+    }
+
+    footer{
+        margin-top: 115px;
+    }
+
+    .contact-info .card{
+        width: fit-content !important;
+    }
+
+    .contact-section{
+        margin-top: 115px;
+    }
+}
+
+
+@media (min-width: 992px) {
+
+    .custom-col-6 {
+        width: 48%;
+    }
+
+    .custom-col-1 {
+        width: 4%;
+    }
+
+    .contact-info{
+        max-width: 405px;
+    }
+
+    .override-padding {
+        padding-top: 85px !important;
+        padding-bottom: 85px !important;
+        padding-right: 70px !important;
+        padding-left: 70px !important;
+    }
+
+    .footer-menu-item{
+        width: auto;
+    }
+
+    .card{
+        padding: 60px;
+    }
+
+    .size-adjust {
+        font-size: 65px !important;
+        line-height: 70px !important;
+    }
+}
+
+@media (min-width: 1200px){
+    h2{
+        font-size: 40px;
+        line-height: 52px;   
+    }
+
+    .custom-col-6 {
+        width: 47%;
+    }
+
+    .custom-col-1 {
+        width: 6%;
+    }
+}
