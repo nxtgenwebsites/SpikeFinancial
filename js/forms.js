@@ -17,7 +17,7 @@ form.addEventListener('submit', function(e) {
 
     // sending mail script
     const formData = new FormData();
-    formData.append('access_key', 'c0b19122-c89c-4d5a-b644-d8bd4822b257');
+    formData.append('access_key', '9654fbf1-9432-467c-8932-3dbe77f16248');
     formData.append('name', document.getElementById('name').value);
     formData.append('email', document.getElementById('email').value);
     formData.append('phone', document.getElementById('phone').value);
