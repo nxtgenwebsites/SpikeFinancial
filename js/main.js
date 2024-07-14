@@ -1,28 +1,29 @@
 var owl = $(".owl-carousel");
 
 $(".owl-carousel").owlCarousel({
+    dots: true,
     autoplay: true,
     autoplayhoverpause: true,
-    autoplaytimeout: 100000,
+    autoplaytimeout: 10000,
     nav: false,
     // margin:40,
-    navnavText:['next', 'previous'],
+    navnavText: ['next', 'previous'],
     loop: true,
-    responsiveClass:true,
-    responsive : {
-        0 : {
-            items:1,
-            nav:false,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: false,
         },
-        768 : {
-            items:2,
-            nav:false,
+        768: {
+            items: 2,
+            nav: false,
         },
-        992 : {
-            items:3,
-            nav:false,
+        992: {
+            items: 3,
+            nav: false,
         },
-        1200 : {
+        1200: {
             items: 4,
         }
     }
