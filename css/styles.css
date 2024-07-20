@@ -477,9 +477,41 @@ footer {
     margin-top: 30px;
     margin-bottom: 0px;
   }
+
+
+  .owl-carousel {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .owl-carousel .owl-stage-outer {
+    overflow: visible;
+  }
+  .owl-carousel .card {
+    padding: 16px 24px !important;
+    padding-top: 30px !important;
+    border: 1px solid #ddd;
+    margin: 0px;
+  }
+  .m-carousel-card {
+    width: 92% !important;
+  }
+  .become-partner-main {
+    width: calc(100% - 70px);
+    padding: 30px 20px;
+  }
   .home-card-mt50 {
     margin-top: 50px !important;
   }
+  form.home-card-mt50,
+  .card {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+  }
+  .contact-section .contact-info .card {
+    width: auto !important;
+  }
+
 }
 @media (max-width: 597px) {
   .lamp {

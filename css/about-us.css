@@ -200,7 +200,7 @@ h3 {
 
 .card {
   padding: 40px !important;
-  border: none !important;
+  border: none;
 }
 
 /* h3 {
@@ -298,7 +298,14 @@ h2 {
   }
 
   .owl-carousel .card {
-    transform: translateX(-50%);
+    /* transform: translateX(-50%);*/
+  }
+  .owl-carousel {
+    width: calc(100% - 60px - 1.5rem);
+    margin-left: calc(30px + 1.5rem);
+  }
+  .owl-carousel .owl-stage-outer {
+    overflow: visible;
   }
 
   .star-1 {
@@ -484,6 +491,7 @@ h2 {
   }
   .founder-card-mb {
     margin-bottom: 20px !important;
+    padding: 20px 0px;
   }
   .owl-dots {
     z-index: 100 !important;
@@ -493,6 +501,40 @@ h2 {
   .header-description {
     line-height: 25px !important;
   }
+  .owl-carousel {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .owl-carousel .owl-stage-outer {
+    overflow: visible;
+  }
+  .card {
+    padding: 36px 28px !important;
+    border: 1px solid #e1e1e1;
+  }
+  .owl-carousel .card {
+    padding: 16px 24px !important;
+    padding-top: 30px !important;
+    border: 1px solid #ddd;
+    margin: 0px;
+  }
+  .m-carousel-card {
+    width: 92% !important;
+  }
+  .owl-carousel .card h3 {
+    line-height: 12px;
+    margin-bottom: 0px;
+  }
+  .owl-carousel .item {
+    height: 270px !important;
+  }
+  form.card {
+    width: calc(100% - 20px);
+  }
+  .become-partner-main {
+    width: calc(100% - 70px);
+  }
+
 }
 @media (max-width: 597px) {
   .solar-panel {

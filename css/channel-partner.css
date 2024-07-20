@@ -91,7 +91,7 @@
 }
 
 .become-partner-main {
-  width: calc(100% - 50px);
+  width: calc(100% - 70px);
   max-width: 1232px;
   padding: 20px;
   padding-top: 40px;
@@ -452,8 +452,39 @@ h3 {
   .contact-card-description {
     margin-bottom: 60px !important;
   }
-    .owl-controls-section{
+  .owl-controls-section{
     margin-bottom: 40px !important;
+  }
+  .owl-carousel-container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .owl-carousel {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .owl-carousel .owl-stage-outer {
+    overflow: visible;
+  }
+  .card {
+    padding: 36px 28px !important;
+    border: 1px solid #e1e1e1;
+  }
+  .owl-carousel .card {
+    padding: 16px 24px !important;
+    padding-top: 30px !important;
+    border: 1px solid #ddd;
+    margin: 0px;
+  }
+  .m-carousel-card {
+    width: 92% !important;
+  }
+  .owl-carousel .card h3 {
+    line-height: 12px;
+    margin-bottom: 0px;
+  }
+  form.card {
+    width: calc(100% - 20px);
   }
 }
 @media (max-width: 597px) {
