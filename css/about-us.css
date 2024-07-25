@@ -34,7 +34,7 @@ h3 {
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 3px;
-  padding: 4px 8px;
+  padding: 6px 12px;
 }
 
 .main-title {
@@ -443,9 +443,9 @@ h2 {
   .main-header-star {
     margin-top: 30px;
     display: block !important;
-    top: -180;
+    top: -200;
     right: 20;
-    width: 40px;
+    width: 60px;
   }
   .main-header-star2 {
     display: block !important;
@@ -495,8 +495,9 @@ h2 {
   }
   .owl-dots {
     z-index: 100 !important;
-    display: block !important;
-    width: 500px !important;
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
   }
   .header-description {
     line-height: 25px !important;
@@ -513,7 +514,7 @@ h2 {
     border: 1px solid #e1e1e1;
   }
   .owl-carousel .card {
-    padding: 16px 24px !important;
+    padding: 26px 24px !important;
     padding-top: 30px !important;
     border: 1px solid #ddd;
     margin: 0px;
@@ -526,7 +527,17 @@ h2 {
     margin-bottom: 0px;
   }
   .owl-carousel .item {
-    height: 270px !important;
+    height: 290px !important;
+  }
+  .owl-carousel button.owl-dot {
+    background: #bbb9c5;
+    width: 10px;
+    height: 10px;
+    border-radius: 8px;
+    margin: 0px 8px;
+  }
+  .owl-carousel button.owl-dot.active {
+    background: #2c2753;
   }
   form.card {
     width: calc(100% - 20px);
@@ -534,7 +545,16 @@ h2 {
   .become-partner-main {
     width: calc(100% - 70px);
   }
-
+  .why-choose-section {
+    margin-bottom: 40px;
+  }
+  .size-adjust {
+    font-size: 22px !important;
+    line-height: 28px !important;
+  }
+  .m-center {
+    text-align: center !important;
+  }
 }
 @media (max-width: 597px) {
   .solar-panel {

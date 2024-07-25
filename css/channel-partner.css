@@ -485,6 +485,22 @@ h3 {
   }
   form.card {
     width: calc(100% - 20px);
+  }  
+  .owl-dots {
+    z-index: 100 !important;
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+  }
+  .owl-carousel button.owl-dot {
+    background: #bbb9c5;
+    width: 10px;
+    height: 10px;
+    border-radius: 8px;
+    margin: 0px 8px;
+  }
+  .owl-carousel button.owl-dot.active {
+    background: #2c2753;
   }
 }
 @media (max-width: 597px) {

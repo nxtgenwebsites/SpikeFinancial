@@ -1,5 +1,4 @@
 var owl = $(".owl-carousel");
-
 $(".owl-carousel").owlCarousel({
     dots: true,
     autoplay: true,
